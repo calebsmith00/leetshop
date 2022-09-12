@@ -1,0 +1,1 @@
+print("I was initialized on server only.")
