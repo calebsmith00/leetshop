@@ -3,6 +3,8 @@ LS.Items = {}
 LS.Categories = {}
 LS.Currency = "¢"
 
+include("sh_config.lua")
+
 function LS:Initialize()
   self:LoadItems()
 end
