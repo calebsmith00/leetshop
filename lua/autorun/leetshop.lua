@@ -1,11 +1,10 @@
 if SERVER then
-  AddCSLuaFile("shared.lua")
-  AddCSLuaFile("cl_init.lua")
-  include ("init.lua")
-  include ("shared.lua")
+  AddCSLuaFile()  
+  include ("leetshop/init.lua")
 end
 
 if CLIENT then
-  include ("shared.lua")
-  include ("cl_init.lua")
+  include ("leetshop/cl_init.lua")
 end
+
+LS:Initialize()

@@ -1,1 +1,0 @@
-print("I was initialized on client only.")
